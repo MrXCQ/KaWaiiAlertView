@@ -147,12 +147,13 @@
     dispatch_time_t delayTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5*NSEC_PER_SEC));
     
     dispatch_after(delayTime, dispatch_get_main_queue(), ^{
-        self.nextAction();
+        self.clickAction(YES) ;
         NSLog(@"点击了确定") ;
     });
 }
 
 -(void)closeShandow{
+    self.clickAction(NO) ;
     [self removeFromSuperview];
 }
 
@@ -181,7 +182,4 @@
 }
 
 
--(void)nextActionEv:(SureAction)action{
-    self.nextAction = action;
-}
 @end

@@ -9,11 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "Masonry.h"
 
-typedef void(^SureAction)(void);
+typedef void(^SureAction)(BOOL);
 
 @interface KawaiiAlert : UIView
-@property(nonatomic ,copy) SureAction closeAction;
-@property(nonatomic ,copy) SureAction nextAction;
+@property(nonatomic ,copy) SureAction clickAction;
 @property(nonatomic ,copy) NSString *title;
 @property(nonatomic ,copy) NSString *detailTitle;
 @property(nonatomic ,strong) UIImage *images;
@@ -26,8 +25,6 @@ typedef void(^SureAction)(void);
                        image:(UIImage *)images
                     btnTitle:(NSString *)btnTitle
                 detailHeight:(CGFloat)detailHeight;
-
--(void)nextActionEv:(SureAction)action;
 
 -(void)showView;
 
