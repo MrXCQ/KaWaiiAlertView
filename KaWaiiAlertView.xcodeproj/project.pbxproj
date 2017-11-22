@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		594D7D691FC54909006654D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594D7D681FC54909006654D5 /* AppDelegate.swift */; };
+		594D7D6B1FC54909006654D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594D7D6A1FC54909006654D5 /* ViewController.swift */; };
+		594D7D6E1FC54909006654D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594D7D6C1FC54909006654D5 /* Main.storyboard */; };
+		594D7D701FC54909006654D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 594D7D6F1FC54909006654D5 /* Assets.xcassets */; };
+		594D7D731FC5490A006654D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594D7D711FC5490A006654D5 /* LaunchScreen.storyboard */; };
+		594D7D7E1FC5490A006654D5 /* KaWaiiAlertViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594D7D7D1FC5490A006654D5 /* KaWaiiAlertViewTests.swift */; };
+		594D7D891FC5490A006654D5 /* KaWaiiAlertViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594D7D881FC5490A006654D5 /* KaWaiiAlertViewUITests.swift */; };
+		594D7D991FC54951006654D5 /* KawaiiAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 594D7D981FC54951006654D5 /* KawaiiAlert.m */; };
+		594D7D9C1FC54966006654D5 /* empty_page_comments@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 594D7D9A1FC54966006654D5 /* empty_page_comments@2x.png */; };
+		594D7D9D1FC54966006654D5 /* Slice1.png in Resources */ = {isa = PBXBuildFile; fileRef = 594D7D9B1FC54966006654D5 /* Slice1.png */; };
+		594D7DBB1FC54972006654D5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 594D7D9F1FC54971006654D5 /* LICENSE */; };
+		594D7DBC1FC54972006654D5 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 594D7DA21FC54971006654D5 /* MASCompositeConstraint.m */; };
+		594D7DBD1FC54972006654D5 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 594D7DA51FC54971006654D5 /* MASConstraint.m */; };
+		594D7DBE1FC54972006654D5 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 594D7DA71FC54971006654D5 /* MASConstraintMaker.m */; };
+		594D7DBF1FC54972006654D5 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 594D7DA91FC54971006654D5 /* MASLayoutConstraint.m */; };
+		594D7DC01FC54972006654D5 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 594D7DAD1FC54971006654D5 /* MASViewAttribute.m */; };
+		594D7DC11FC54972006654D5 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 594D7DAF1FC54971006654D5 /* MASViewConstraint.m */; };
+		594D7DC21FC54972006654D5 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 594D7DB11FC54971006654D5 /* NSArray+MASAdditions.m */; };
+		594D7DC31FC54972006654D5 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 594D7DB41FC54971006654D5 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		594D7DC41FC54972006654D5 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 594D7DB61FC54971006654D5 /* View+MASAdditions.m */; };
+		594D7DC51FC54972006654D5 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 594D7DB91FC54971006654D5 /* ViewController+MASAdditions.m */; };
+		594D7DC61FC54972006654D5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 594D7DBA1FC54971006654D5 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		594D7D7A1FC5490A006654D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 594D7D5D1FC54909006654D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 594D7D641FC54909006654D5;
+			remoteInfo = KaWaiiAlertView;
+		};
+		594D7D851FC5490A006654D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 594D7D5D1FC54909006654D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 594D7D641FC54909006654D5;
+			remoteInfo = KaWaiiAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		594D7D651FC54909006654D5 /* KaWaiiAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaWaiiAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		594D7D681FC54909006654D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		594D7D6A1FC54909006654D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		594D7D6D1FC54909006654D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		594D7D6F1FC54909006654D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		594D7D721FC5490A006654D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		594D7D741FC5490A006654D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594D7D791FC5490A006654D5 /* KaWaiiAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaWaiiAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		594D7D7D1FC5490A006654D5 /* KaWaiiAlertViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaWaiiAlertViewTests.swift; sourceTree = "<group>"; };
+		594D7D7F1FC5490A006654D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594D7D841FC5490A006654D5 /* KaWaiiAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaWaiiAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		594D7D881FC5490A006654D5 /* KaWaiiAlertViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaWaiiAlertViewUITests.swift; sourceTree = "<group>"; };
+		594D7D8A1FC5490A006654D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594D7D961FC54951006654D5 /* KaWaiiAlertView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KaWaiiAlertView-Bridging-Header.h"; sourceTree = "<group>"; };
+		594D7D971FC54951006654D5 /* KawaiiAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KawaiiAlert.h; sourceTree = "<group>"; };
+		594D7D981FC54951006654D5 /* KawaiiAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KawaiiAlert.m; sourceTree = "<group>"; };
+		594D7D9A1FC54966006654D5 /* empty_page_comments@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "empty_page_comments@2x.png"; sourceTree = "<group>"; };
+		594D7D9B1FC54966006654D5 /* Slice1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slice1.png; sourceTree = "<group>"; };
+		594D7D9F1FC54971006654D5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		594D7DA11FC54971006654D5 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		594D7DA21FC54971006654D5 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		594D7DA31FC54971006654D5 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		594D7DA41FC54971006654D5 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		594D7DA51FC54971006654D5 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		594D7DA61FC54971006654D5 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		594D7DA71FC54971006654D5 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		594D7DA81FC54971006654D5 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		594D7DA91FC54971006654D5 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		594D7DAA1FC54971006654D5 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		594D7DAB1FC54971006654D5 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		594D7DAC1FC54971006654D5 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		594D7DAD1FC54971006654D5 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		594D7DAE1FC54971006654D5 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		594D7DAF1FC54971006654D5 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		594D7DB01FC54971006654D5 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		594D7DB11FC54971006654D5 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		594D7DB21FC54971006654D5 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		594D7DB31FC54971006654D5 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		594D7DB41FC54971006654D5 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		594D7DB51FC54971006654D5 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		594D7DB61FC54971006654D5 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		594D7DB71FC54971006654D5 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		594D7DB81FC54971006654D5 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		594D7DB91FC54971006654D5 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		594D7DBA1FC54971006654D5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		594D7D621FC54909006654D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594D7D761FC5490A006654D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594D7D811FC5490A006654D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		594D7D5C1FC54909006654D5 = {
+			isa = PBXGroup;
+			children = (
+				594D7D671FC54909006654D5 /* KaWaiiAlertView */,
+				594D7D7C1FC5490A006654D5 /* KaWaiiAlertViewTests */,
+				594D7D871FC5490A006654D5 /* KaWaiiAlertViewUITests */,
+				594D7D661FC54909006654D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		594D7D661FC54909006654D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				594D7D651FC54909006654D5 /* KaWaiiAlertView.app */,
+				594D7D791FC5490A006654D5 /* KaWaiiAlertViewTests.xctest */,
+				594D7D841FC5490A006654D5 /* KaWaiiAlertViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		594D7D671FC54909006654D5 /* KaWaiiAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				594D7D681FC54909006654D5 /* AppDelegate.swift */,
+				594D7D6A1FC54909006654D5 /* ViewController.swift */,
+				594D7D9E1FC54971006654D5 /* Masonry */,
+				594D7D6C1FC54909006654D5 /* Main.storyboard */,
+				594D7D6F1FC54909006654D5 /* Assets.xcassets */,
+				594D7D711FC5490A006654D5 /* LaunchScreen.storyboard */,
+				594D7D971FC54951006654D5 /* KawaiiAlert.h */,
+				594D7D981FC54951006654D5 /* KawaiiAlert.m */,
+				594D7D9A1FC54966006654D5 /* empty_page_comments@2x.png */,
+				594D7D9B1FC54966006654D5 /* Slice1.png */,
+				594D7D741FC5490A006654D5 /* Info.plist */,
+				594D7D961FC54951006654D5 /* KaWaiiAlertView-Bridging-Header.h */,
+			);
+			path = KaWaiiAlertView;
+			sourceTree = "<group>";
+		};
+		594D7D7C1FC5490A006654D5 /* KaWaiiAlertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				594D7D7D1FC5490A006654D5 /* KaWaiiAlertViewTests.swift */,
+				594D7D7F1FC5490A006654D5 /* Info.plist */,
+			);
+			path = KaWaiiAlertViewTests;
+			sourceTree = "<group>";
+		};
+		594D7D871FC5490A006654D5 /* KaWaiiAlertViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				594D7D881FC5490A006654D5 /* KaWaiiAlertViewUITests.swift */,
+				594D7D8A1FC5490A006654D5 /* Info.plist */,
+			);
+			path = KaWaiiAlertViewUITests;
+			sourceTree = "<group>";
+		};
+		594D7D9E1FC54971006654D5 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				594D7D9F1FC54971006654D5 /* LICENSE */,
+				594D7DA01FC54971006654D5 /* Masonry */,
+				594D7DBA1FC54971006654D5 /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		594D7DA01FC54971006654D5 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				594D7DA11FC54971006654D5 /* MASCompositeConstraint.h */,
+				594D7DA21FC54971006654D5 /* MASCompositeConstraint.m */,
+				594D7DA31FC54971006654D5 /* MASConstraint+Private.h */,
+				594D7DA41FC54971006654D5 /* MASConstraint.h */,
+				594D7DA51FC54971006654D5 /* MASConstraint.m */,
+				594D7DA61FC54971006654D5 /* MASConstraintMaker.h */,
+				594D7DA71FC54971006654D5 /* MASConstraintMaker.m */,
+				594D7DA81FC54971006654D5 /* MASLayoutConstraint.h */,
+				594D7DA91FC54971006654D5 /* MASLayoutConstraint.m */,
+				594D7DAA1FC54971006654D5 /* Masonry.h */,
+				594D7DAB1FC54971006654D5 /* MASUtilities.h */,
+				594D7DAC1FC54971006654D5 /* MASViewAttribute.h */,
+				594D7DAD1FC54971006654D5 /* MASViewAttribute.m */,
+				594D7DAE1FC54971006654D5 /* MASViewConstraint.h */,
+				594D7DAF1FC54971006654D5 /* MASViewConstraint.m */,
+				594D7DB01FC54971006654D5 /* NSArray+MASAdditions.h */,
+				594D7DB11FC54971006654D5 /* NSArray+MASAdditions.m */,
+				594D7DB21FC54971006654D5 /* NSArray+MASShorthandAdditions.h */,
+				594D7DB31FC54971006654D5 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				594D7DB41FC54971006654D5 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				594D7DB51FC54971006654D5 /* View+MASAdditions.h */,
+				594D7DB61FC54971006654D5 /* View+MASAdditions.m */,
+				594D7DB71FC54971006654D5 /* View+MASShorthandAdditions.h */,
+				594D7DB81FC54971006654D5 /* ViewController+MASAdditions.h */,
+				594D7DB91FC54971006654D5 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		594D7D641FC54909006654D5 /* KaWaiiAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594D7D8D1FC5490A006654D5 /* Build configuration list for PBXNativeTarget "KaWaiiAlertView" */;
+			buildPhases = (
+				594D7D611FC54909006654D5 /* Sources */,
+				594D7D621FC54909006654D5 /* Frameworks */,
+				594D7D631FC54909006654D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KaWaiiAlertView;
+			productName = KaWaiiAlertView;
+			productReference = 594D7D651FC54909006654D5 /* KaWaiiAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		594D7D781FC5490A006654D5 /* KaWaiiAlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594D7D901FC5490A006654D5 /* Build configuration list for PBXNativeTarget "KaWaiiAlertViewTests" */;
+			buildPhases = (
+				594D7D751FC5490A006654D5 /* Sources */,
+				594D7D761FC5490A006654D5 /* Frameworks */,
+				594D7D771FC5490A006654D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				594D7D7B1FC5490A006654D5 /* PBXTargetDependency */,
+			);
+			name = KaWaiiAlertViewTests;
+			productName = KaWaiiAlertViewTests;
+			productReference = 594D7D791FC5490A006654D5 /* KaWaiiAlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		594D7D831FC5490A006654D5 /* KaWaiiAlertViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594D7D931FC5490A006654D5 /* Build configuration list for PBXNativeTarget "KaWaiiAlertViewUITests" */;
+			buildPhases = (
+				594D7D801FC5490A006654D5 /* Sources */,
+				594D7D811FC5490A006654D5 /* Frameworks */,
+				594D7D821FC5490A006654D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				594D7D861FC5490A006654D5 /* PBXTargetDependency */,
+			);
+			name = KaWaiiAlertViewUITests;
+			productName = KaWaiiAlertViewUITests;
+			productReference = 594D7D841FC5490A006654D5 /* KaWaiiAlertViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		594D7D5D1FC54909006654D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = IMpBear;
+				TargetAttributes = {
+					594D7D641FC54909006654D5 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+					594D7D781FC5490A006654D5 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 594D7D641FC54909006654D5;
+					};
+					594D7D831FC5490A006654D5 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 594D7D641FC54909006654D5;
+					};
+				};
+			};
+			buildConfigurationList = 594D7D601FC54909006654D5 /* Build configuration list for PBXProject "KaWaiiAlertView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 594D7D5C1FC54909006654D5;
+			productRefGroup = 594D7D661FC54909006654D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				594D7D641FC54909006654D5 /* KaWaiiAlertView */,
+				594D7D781FC5490A006654D5 /* KaWaiiAlertViewTests */,
+				594D7D831FC5490A006654D5 /* KaWaiiAlertViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		594D7D631FC54909006654D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594D7DBB1FC54972006654D5 /* LICENSE in Resources */,
+				594D7D731FC5490A006654D5 /* LaunchScreen.storyboard in Resources */,
+				594D7D701FC54909006654D5 /* Assets.xcassets in Resources */,
+				594D7DC61FC54972006654D5 /* README.md in Resources */,
+				594D7D6E1FC54909006654D5 /* Main.storyboard in Resources */,
+				594D7D9D1FC54966006654D5 /* Slice1.png in Resources */,
+				594D7D9C1FC54966006654D5 /* empty_page_comments@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594D7D771FC5490A006654D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594D7D821FC5490A006654D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		594D7D611FC54909006654D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594D7DC31FC54972006654D5 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				594D7DC11FC54972006654D5 /* MASViewConstraint.m in Sources */,
+				594D7DBC1FC54972006654D5 /* MASCompositeConstraint.m in Sources */,
+				594D7DC21FC54972006654D5 /* NSArray+MASAdditions.m in Sources */,
+				594D7D6B1FC54909006654D5 /* ViewController.swift in Sources */,
+				594D7D691FC54909006654D5 /* AppDelegate.swift in Sources */,
+				594D7DBF1FC54972006654D5 /* MASLayoutConstraint.m in Sources */,
+				594D7D991FC54951006654D5 /* KawaiiAlert.m in Sources */,
+				594D7DC51FC54972006654D5 /* ViewController+MASAdditions.m in Sources */,
+				594D7DC41FC54972006654D5 /* View+MASAdditions.m in Sources */,
+				594D7DC01FC54972006654D5 /* MASViewAttribute.m in Sources */,
+				594D7DBD1FC54972006654D5 /* MASConstraint.m in Sources */,
+				594D7DBE1FC54972006654D5 /* MASConstraintMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594D7D751FC5490A006654D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594D7D7E1FC5490A006654D5 /* KaWaiiAlertViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594D7D801FC5490A006654D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594D7D891FC5490A006654D5 /* KaWaiiAlertViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		594D7D7B1FC5490A006654D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 594D7D641FC54909006654D5 /* KaWaiiAlertView */;
+			targetProxy = 594D7D7A1FC5490A006654D5 /* PBXContainerItemProxy */;
+		};
+		594D7D861FC5490A006654D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 594D7D641FC54909006654D5 /* KaWaiiAlertView */;
+			targetProxy = 594D7D851FC5490A006654D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		594D7D6C1FC54909006654D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				594D7D6D1FC54909006654D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		594D7D711FC5490A006654D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				594D7D721FC5490A006654D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		594D7D8B1FC5490A006654D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		594D7D8C1FC5490A006654D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		594D7D8E1FC5490A006654D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 949QG6GEKS;
+				INFOPLIST_FILE = KaWaiiAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IMpBear.KaWaiiAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KaWaiiAlertView/KaWaiiAlertView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		594D7D8F1FC5490A006654D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 949QG6GEKS;
+				INFOPLIST_FILE = KaWaiiAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IMpBear.KaWaiiAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KaWaiiAlertView/KaWaiiAlertView-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		594D7D911FC5490A006654D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 949QG6GEKS;
+				INFOPLIST_FILE = KaWaiiAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IMpBear.KaWaiiAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaWaiiAlertView.app/KaWaiiAlertView";
+			};
+			name = Debug;
+		};
+		594D7D921FC5490A006654D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 949QG6GEKS;
+				INFOPLIST_FILE = KaWaiiAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IMpBear.KaWaiiAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaWaiiAlertView.app/KaWaiiAlertView";
+			};
+			name = Release;
+		};
+		594D7D941FC5490A006654D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 949QG6GEKS;
+				INFOPLIST_FILE = KaWaiiAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IMpBear.KaWaiiAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KaWaiiAlertView;
+			};
+			name = Debug;
+		};
+		594D7D951FC5490A006654D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 949QG6GEKS;
+				INFOPLIST_FILE = KaWaiiAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IMpBear.KaWaiiAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KaWaiiAlertView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		594D7D601FC54909006654D5 /* Build configuration list for PBXProject "KaWaiiAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594D7D8B1FC5490A006654D5 /* Debug */,
+				594D7D8C1FC5490A006654D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594D7D8D1FC5490A006654D5 /* Build configuration list for PBXNativeTarget "KaWaiiAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594D7D8E1FC5490A006654D5 /* Debug */,
+				594D7D8F1FC5490A006654D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594D7D901FC5490A006654D5 /* Build configuration list for PBXNativeTarget "KaWaiiAlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594D7D911FC5490A006654D5 /* Debug */,
+				594D7D921FC5490A006654D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594D7D931FC5490A006654D5 /* Build configuration list for PBXNativeTarget "KaWaiiAlertViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594D7D941FC5490A006654D5 /* Debug */,
+				594D7D951FC5490A006654D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 594D7D5D1FC54909006654D5 /* Project object */;
+}
