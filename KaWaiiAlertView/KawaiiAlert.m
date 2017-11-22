@@ -7,8 +7,8 @@
 //
 
 #import "KawaiiAlert.h"
-#import "Masonry.h"
-
+#define appWindow [UIApplication sharedApplication].keyWindow
+#define appWindow [UIApplication sharedApplication].keyWindow
 #define XCQ_RGB(r,g,b) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
 #define XCQ_RGBA(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
 #define XCQ_BGCOLOR    XCQ_RGB(248, 248, 248, 1)
@@ -98,54 +98,58 @@
 #pragma mark -- autoLayout
     
     [self.alert mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.size.equalTo(CGSizeMake(alertW, alertH));
-        
-        make.centerX.equalTo(self.mas_centerX);
-        make.centerY.equalTo(self.mas_centerY);
+        make.size.mas_equalTo(@(CGSizeMake(alertW, alertH)));
+        make.centerX.mas_equalTo(self.mas_centerX);
+        make.centerY.mas_equalTo(self.mas_centerY);
     }];
     
     [action mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.bottom.equalTo(self.alert.mas_bottom).with.offset(-15);
-        make.left.equalTo(action2.mas_right).with.offset(15);
-        make.right.equalTo(self.alert.mas_right).with.offset(-15);
+        make.bottom.mas_equalTo(self.alert.mas_bottom).with.offset(-15);
+        make.left.mas_equalTo(action2.mas_right).with.offset(15);
+        make.right.mas_equalTo(self.alert.mas_right).with.offset(-15);
         make.height.mas_equalTo(40);
         make.width.mas_equalTo(action2) ;
     }];
     
     [action2 mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.bottom.equalTo(self.alert.mas_bottom).with.offset(-15);
-        make.left.equalTo(self.alert.mas_left).with.offset(15);
-        make.right.equalTo(action.mas_left).with.offset(-15);
+        make.bottom.mas_equalTo(self.alert.mas_bottom).with.offset(-15);
+        make.left.mas_equalTo(self.alert.mas_left).with.offset(15);
+        make.right.mas_equalTo(action.mas_left).with.offset(-15);
         make.height.mas_equalTo(40);
     }];
     
     [detailLab mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.bottom.equalTo(action.top).with.offset(-10);
-        make.left.equalTo(self.alert.mas_left).with.offset(20);
-        make.height.equalTo(self.detailH);
-        make.right.equalTo(self.alert.mas_right).with.offset(-20);
+        make.bottom.mas_equalTo(action.mas_top).with.offset(-10);
+        make.left.mas_equalTo(self.alert.mas_left).with.offset(20);
+        make.height.mas_equalTo(@(self.detailH));
+        make.right.mas_equalTo(self.alert.mas_right).with.offset(-20);
     }];
     
     [imageV mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.width.equalTo(self.alert.width);
-        make.bottom.equalTo(title.top).with.offset(-14);
-        make.left.equalTo(0);
-        make.top.equalTo(self.alert.top);
+        make.width.mas_equalTo(self.alert.mas_width);
+        make.bottom.mas_equalTo(title.mas_top).with.offset(-14);
+        make.left.mas_equalTo(0);
+        make.top.mas_equalTo(self.alert.mas_top);
     }];
     
     [title mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.bottom.equalTo(detailLab.top).with.offset(0);
-        make.left.equalTo(detailLab.left);
-        make.height.equalTo(25);
-        make.width.equalTo(detailLab.width);
+        make.bottom.mas_equalTo(detailLab.mas_top).with.offset(0);
+        make.left.mas_equalTo(detailLab.mas_left);
+        make.height.mas_equalTo(@25);
+        make.width.mas_equalTo(detailLab.mas_width);
     }];
-    
-    
 }
 
 -(void)nextActionEvent{
-    //self.nextAction();
-    NSLog(@"点击了确定") ;
+    
+    [self hideView];
+    
+    dispatch_time_t delayTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5*NSEC_PER_SEC));
+    
+    dispatch_after(delayTime, dispatch_get_main_queue(), ^{
+        self.nextAction();
+        NSLog(@"点击了确定") ;
+    });
 }
 
 -(void)closeShandow{
@@ -177,7 +181,7 @@
 }
 
 
--(void)nextActionEv:(Action)action{
-    self.nextAction =action;
+-(void)nextActionEv:(SureAction)action{
+    self.nextAction = action;
 }
 @end

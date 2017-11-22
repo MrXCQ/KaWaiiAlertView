@@ -7,20 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Masonry.h"
 
-#define appWindow [UIApplication sharedApplication].keyWindow
-//加入这个宏，可以省略所有 mas_ （除了mas_equalTo）
-#define MAS_SHORTHAND
-
-//加入这个宏，那么mas_equalTo就和equalTo一样的了
-#define MAS_SHORTHAND_GLOBALS
-
-#define appWindow [UIApplication sharedApplication].keyWindow
-typedef void(^Action)(void);
+typedef void(^SureAction)(void);
 
 @interface KawaiiAlert : UIView
-@property(nonatomic ,copy) Action closeAction;
-@property(nonatomic ,copy) Action nextAction;
+@property(nonatomic ,copy) SureAction closeAction;
+@property(nonatomic ,copy) SureAction nextAction;
 @property(nonatomic ,copy) NSString *title;
 @property(nonatomic ,copy) NSString *detailTitle;
 @property(nonatomic ,strong) UIImage *images;
@@ -34,7 +27,7 @@ typedef void(^Action)(void);
                     btnTitle:(NSString *)btnTitle
                 detailHeight:(CGFloat)detailHeight;
 
--(void)nextActionEv:(Action)action;
+-(void)nextActionEv:(SureAction)action;
 
 -(void)showView;
 
